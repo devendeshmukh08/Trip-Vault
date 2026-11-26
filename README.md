@@ -1,3 +1,4 @@
+<<<<<<< HEAD
 # 🧳 Trip Vault
 One place for every trip: documents (tickets, bookings, IDs), a to-do itinerary you can tick off, an AI planner, PDF itinerary import and a photo memory album.
 
@@ -21,3 +22,6 @@ Email + password sign-up, scrypt-hashed passwords, random session tokens (only t
 - `app/actions.ts` – all mutations (server actions) + AI + PDF import
 - `components/Uploader.tsx` – browser uploads straight to Vercel Blob, then a server action saves the metadata
 - `middleware.ts` – session auth helpers + route gate
+=======
+# Trip-Vault
+>>>>>>> 6b88a48e1832fdf271504eb87919b8c501eb47a2
