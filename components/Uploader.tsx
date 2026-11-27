@@ -3,7 +3,7 @@ import { upload } from "@vercel/blob/client";
 import { useRef, useState, useTransition } from "react";
 import { addFile, importFromPdf } from "@/app/actions";
 
-export const CATS = ["Itinerary", "Hotel", "Tickets", "ID & Visa", "Insurance", "Other"];
+import { CATS } from "@/lib/ui";
 type Props = { tripId: string; mode: "doc" | "photo" | "import"; label: string };
 
 export default function Uploader({ tripId, mode, label }: Props) {

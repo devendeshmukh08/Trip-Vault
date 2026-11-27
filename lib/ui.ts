@@ -16,3 +16,4 @@ export function dayDate(a: string | null, n: number) {
   if (!a || !n) return ""; const x = d(a); x.setDate(x.getDate() + n - 1);
   return x.toLocaleDateString("en-IN", { weekday: "short", day: "numeric", month: "short" });
 }
+export const CATS = ["Itinerary", "Hotel", "Tickets", "ID & Visa", "Insurance", "Other"];
