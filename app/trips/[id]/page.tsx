@@ -3,8 +3,8 @@ import { notFound } from "next/navigation";
 import { sql, type Item, type FileRow } from "@/lib/db";
 import { requireUser } from "@/lib/auth";
 import { addItem, toggleItem, deleteItem, deleteFile, deleteTrip, aiPlan } from "@/app/actions";
-import Uploader, { CATS } from "@/components/Uploader";
-import { grad, range, when, nDays, dayDate } from "@/lib/ui";
+import Uploader from "@/components/Uploader";
+import { grad, range, when, nDays, dayDate, CATS } from "@/lib/ui";
 export const dynamic = "force-dynamic";
 const CI: Record<string, string> = { Itinerary: "🗺️", Hotel: "🏨", Tickets: "🎫", "ID & Visa": "🛂", Insurance: "🛡️", Other: "📄" };
 
