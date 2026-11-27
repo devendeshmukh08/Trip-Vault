@@ -174,6 +174,13 @@ Neon is already a hosted database, so there is nothing to deploy for it. Make su
 | `npm run build` | Production build |
 | `npm run start` | Run the production build |
 | `npm run db:init` | Apply `schema.sql` to the database in `.env.local` |
+
+## 📄 Screenshots
+<img width="1440" height="900" alt="Screenshot 2026-11-28 at 12 11 22 AM" src="https://github.com/user-attachments/assets/1ec73b68-6c68-4418-912f-6df0ce0fd168" />
+<img width="1440" height="900" alt="Screenshot 2026-11-28 at 12 11 04 AM" src="https://github.com/user-attachments/assets/1e3c809b-4148-44d1-abe4-2ef6b24aa0a7" />
+<img width="1440" height="900" alt="Screenshot 2026-11-28 at 12 10 50 AM" src="https://github.com/user-attachments/assets/3074e2b8-251f-47d2-acb1-66eca829bb57" />
+<img width="1440" height="900" alt="Screenshot 2026-11-28 at 12 10 36 AM" src="https://github.com/user-attachments/assets/ebe9073b-4315-4860-b654-29fd92d9ef0a" />
+
  
 ## 👤 Author
  
